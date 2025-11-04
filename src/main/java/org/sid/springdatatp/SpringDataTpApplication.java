@@ -26,8 +26,8 @@ public class SpringDataTpApplication implements CommandLineRunner {
                 Centre.builder().nom_centre("Centre EMSI Casa").adresse("Casablanca").build()
         );
         Etudiant et1=Etudiant.builder()
-                .nom("Adnani")
-                .prenom("Morad")
+                .nom("hannouni")
+                .prenom("Lina")
                 .genre(Genre.Homme)
                 .centre(c1)
                 .build();
@@ -35,7 +35,7 @@ public class SpringDataTpApplication implements CommandLineRunner {
 
         Etudiant et2=Etudiant.builder()
                 .nom("Essalamani")
-                .prenom("SWALID")
+                .prenom("oussama")
                 .genre(Genre.Homme)
                 .centre(c1)
                 .build();
@@ -43,15 +43,15 @@ public class SpringDataTpApplication implements CommandLineRunner {
 
         Etudiant et3=Etudiant.builder()
                 .nom("SADIK")
-                .prenom("OUSSAAAAAAA")
+                .prenom("salah")
                 .genre(Genre.Homme)
                 .centre(c1)
                 .build();
         etudiantRepository.save(et3);
 
         Etudiant et4=Etudiant.builder()
-                .nom("TAOUFIK")
-                .prenom("GHAZAL")
+                .nom("dhissi")
+                .prenom("ayman")
                 .genre(Genre.Homme)
                 .centre(c1)
                 .build();
